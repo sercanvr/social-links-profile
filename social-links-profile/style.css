@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 20%;
+    height: 66%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    border: 1px solid transparent;
+}
+
+#avatar {
+    width: 88px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+#avatar:hover {
+    opacity: .7;
+    transition: all .5s;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 24px;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #c5f82a;
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h4 {
+    color: #c5c5c5;
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.bottom-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91%;
+    height: 45px;
+    margin: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ffff;
+    background-color: #333333;
+    border: 1px solid transparent;
+}
+
+.bottom-content a:hover {
+    cursor: pointer;
+    transition: all .5s;
+    color: #1f1f1f;
+    background-color: #c5f82a;
+}
+
+
+
+
+
+/* Mobile Design */
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    
+    .container {
+        width: 85%;
+        height: 80%;
+    }
+    
+    #avatar {
+        width: 80px;
+        margin-top: -8px;
+    }
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    
+    .subtitle {
+        font-size: 13px;
+    }
+    
+    h4 {
+        margin-top: 28px;
+    }
+    
+    .bottom-content {
+        margin-top: 15px;
+    }
+    
+    .bottom-content a {
+        width: 100%;
+        margin: 6px;
+    }
+}
